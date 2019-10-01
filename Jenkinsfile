@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Heyaaa.....This is Akshita's Cool Pipeline'
+                     echo('Heyaaa.....This is Akshuzz Cool Pipeline')
                  }
                  }
                  stage('Two') {
@@ -18,7 +18,7 @@ pipeline {
                        }
                  }
                  steps {
-                       echo "Hello"
+                       echo("Hello")
                  }
                  }
                  stage('Four') {
@@ -36,7 +36,7 @@ pipeline {
                                            }
                                     }
                               steps {
-                                echo "Running the integration test..."
+                                echo("Running the integration test...")
                               }
                            }
                            }
